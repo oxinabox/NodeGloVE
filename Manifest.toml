@@ -15,9 +15,9 @@ version = "0.8.10"
 
 [[BinaryProvider]]
 deps = ["Libdl", "Pkg", "SHA", "Test"]
-git-tree-sha1 = "48c147e63431adbcee69bc40b04c3f0fec0a4982"
+git-tree-sha1 = "38be61810f280c3c478f5c38aaf387f8f9199275"
 uuid = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
-version = "0.5.0"
+version = "0.5.1"
 
 [[Calculus]]
 deps = ["Compat"]
@@ -27,9 +27,9 @@ version = "0.4.1"
 
 [[Clustering]]
 deps = ["Dates", "Distances", "LinearAlgebra", "NearestNeighbors", "Pkg", "Printf", "Random", "SparseArrays", "Statistics", "StatsBase", "Test"]
-git-tree-sha1 = "e5ab61505f044895bfe25ed034eba7639d8a4a5f"
+git-tree-sha1 = "282e5d488cfca89b78b28b9ef28a59898951a62f"
 uuid = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
-version = "0.12.0"
+version = "0.12.1"
 
 [[CodecZlib]]
 deps = ["BinaryProvider", "Libdl", "Pkg", "Test", "TranscodingStreams"]
@@ -118,6 +118,12 @@ uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 [[FileWatching]]
 uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
 
+[[FillArrays]]
+deps = ["Compat", "LinearAlgebra", "Random", "SparseArrays"]
+git-tree-sha1 = "c80c54ba3341ffc3c64e817f742ce77564ad410c"
+uuid = "1a297f60-69ca-5386-bcde-b61e274b549b"
+version = "0.2.1"
+
 [[FixedPointNumbers]]
 deps = ["Pkg", "Test"]
 git-tree-sha1 = "b8045033701c3b10bf2324d7203404be7aef88ba"
@@ -182,6 +188,12 @@ deps = ["Compat"]
 git-tree-sha1 = "c443e1c8d58a4e9f61b708ad0a88286c7042145b"
 uuid = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 version = "0.4.4"
+
+[[MappedArrays]]
+deps = ["Test"]
+git-tree-sha1 = "923441c5ac942b60bd3a842d5377d96646bcbf46"
+uuid = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
+version = "0.2.1"
 
 [[Markdown]]
 deps = ["Base64"]
